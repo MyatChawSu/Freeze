@@ -3,6 +3,10 @@ body {
   margin: 0;
   padding: 0;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
 li {
   list-style: none;
 }
@@ -22,19 +26,20 @@ li {
   margin: 0 auto;
 }
 /*Product CSS*/
-aside {
-  width: 280px;
-  float: left;
-}
-main {
-  width: 560px;
-}
-h2 {
-  color: #cb3362;
+.product .inr {
+  width: 886px;
 }
 .product aside {
-  margin-right: 38px;
-  padding-top: 40px;
+  width: 220px;
+  float: left;
+  padding-top: 50px;
+}
+.product main {
+  width: 660px;
+  float: right;
+}
+h2,.ice ul li p {
+  color: #cb3362;
 }
 .product a {
   color: #7a6666;
@@ -45,40 +50,47 @@ h2 {
 .product .content {
   padding-top: 60px;
 }
-.product .content ul li {
+.product .pro-content ul li {
   margin-bottom: 160px;
 }
-
+.ice ul li {
+  width: 210px;
+  float: left;
+  text-align: center;
+  margin-right: 5px;
+}
+.ice ul li:last-child {
+  margin-right: 0;
+}
+.ice ul li p {
+  font-size: 20px;
+}
 /* for header and footer */
 .menu {
   background: #EEEBEC;
-  padding: 25px 0;
 }
 .menu .logo {
   float: left;
 } 
 .menu .contact-menu {
   float: right;
-  padding-top: 20px;
 }
 .contact-menu ul li {
-  width: 120px;
   float: left;
   list-style-type: none;
-  text-align: center;
 }
 .contact-menu ul li a {
   text-decoration: none;
   color: #7a6666;
 }
 .contact-menu ul li a span {
-  visibility: hidden;
+  display: none;
 }
 .contact-menu ul li a:hover {
   color: #c8c10d;
 }
 .contact-menu ul li a:hover span {
-  visibility: visible;
+  display: block;
 }
 .contact-menu ul li a.menu-active,
 .contact-menu ul li a.menu-active:hover {
@@ -110,5 +122,5 @@ h2 {
 }
 
 .ctn-image img {
-  margin: 0 auto -7px 200px;
+  margin: 0 auto 0 200px;
 }

@@ -18,7 +18,7 @@ body {
   width: 880px;
   margin: 0 auto;
 }
-<<<<<<< HEAD
+
 /* for header and footer */
 .menu {
   background: #EEEBEC;
@@ -76,5 +76,5 @@ body {
 }
 
 .ctn-image img {
-  margin: 0 auto 0 200px;
+  margin: 0 auto -7px 200px;
 }

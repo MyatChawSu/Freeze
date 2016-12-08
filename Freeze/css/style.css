@@ -18,6 +18,7 @@ body {
   width: 880px;
   margin: 0 auto;
 }
+<<<<<<< HEAD
 /* for header and footer */
 .menu {
   background: #EEEBEC;
@@ -48,4 +49,22 @@ body {
 .contact-menu ul li a.menu-active,
 .contact-menu ul li a.menu-active:hover {
   color: #cb3362;
+}
+
+/*----- start of about----- */
+
+.bnr-section {
+  background: #c8c10d;
+}
+
+.bnr-sec {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.bnr-sec h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  padding: 30px 0;
 }

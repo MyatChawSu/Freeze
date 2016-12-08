@@ -21,6 +21,7 @@ li {
   width: 880px;
   margin: 0 auto;
 }
+<<<<<<< HEAD
 /*Product CSS*/
 aside {
   width: 280px;
@@ -47,4 +48,53 @@ h2 {
 }
 .product .content ul li {
   margin-bottom: 160px;
+}
+/* for header and footer */
+.menu {
+  background: #EEEBEC;
+}
+.menu .logo {
+  float: left;
+} 
+.menu .contact-menu {
+  float: right;
+}
+.contact-menu ul li {
+  float: left;
+  list-style-type: none;
+}
+.contact-menu ul li a {
+  text-decoration: none;
+  color: #7a6666;
+}
+.contact-menu ul li a span {
+  display: none;
+}
+.contact-menu ul li a:hover {
+  color: #c8c10d;
+}
+.contact-menu ul li a:hover span {
+  display: block;
+}
+.contact-menu ul li a.menu-active,
+.contact-menu ul li a.menu-active:hover {
+  color: #cb3362;
+}
+
+/*----- start of about----- */
+
+.bnr-section {
+  background: #c8c10d;
+}
+
+.bnr-sec {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.bnr-sec h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  padding: 30px 0;
 }

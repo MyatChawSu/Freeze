@@ -48,6 +48,7 @@ h2 {
 .product .content ul li {
   margin-bottom: 160px;
 }
+
 /* for header and footer */
 .menu {
   background: #EEEBEC;
@@ -109,5 +110,5 @@ h2 {
 }
 
 .ctn-image img {
-  margin: 0 auto 0 200px;
+  margin: 0 auto -7px 200px;
 }

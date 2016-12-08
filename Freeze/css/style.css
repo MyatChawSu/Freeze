@@ -21,7 +21,6 @@ li {
   width: 880px;
   margin: 0 auto;
 }
-
 /*Product CSS*/
 aside {
   width: 280px;
@@ -49,33 +48,37 @@ h2 {
 .product .content ul li {
   margin-bottom: 160px;
 }
->>>>>>> refs/remotes/KhinMayTun-sead/master
+
 /* for header and footer */
 .menu {
   background: #EEEBEC;
+  padding: 25px 0;
 }
 .menu .logo {
   float: left;
 } 
 .menu .contact-menu {
   float: right;
+  padding-top: 20px;
 }
 .contact-menu ul li {
+  width: 120px;
   float: left;
   list-style-type: none;
+  text-align: center;
 }
 .contact-menu ul li a {
   text-decoration: none;
   color: #7a6666;
 }
 .contact-menu ul li a span {
-  display: none;
+  visibility: hidden;
 }
 .contact-menu ul li a:hover {
   color: #c8c10d;
 }
 .contact-menu ul li a:hover span {
-  display: block;
+  visibility: visible;
 }
 .contact-menu ul li a.menu-active,
 .contact-menu ul li a.menu-active:hover {
